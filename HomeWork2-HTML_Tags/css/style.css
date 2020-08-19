@@ -1,0 +1,29 @@
+table,
+td,
+th {
+    border: 1px solid grey;
+}
+
+/* Заглавные римские числа */
+ol {
+    list-style-type: upper-roman;
+}
+
+/* Цвет текста */
+li span {
+    color: blue;
+}
+
+th {
+
+    background: #bcb4db;
+}
+
+.container1 {
+    text-align: center;
+}
+
+.text {
+    width: 270px;
+    height: 100px;
+}
