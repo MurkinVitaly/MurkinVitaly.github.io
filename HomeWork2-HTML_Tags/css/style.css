@@ -1,0 +1,60 @@
+<<<<<<< HEAD
+table,
+td,
+th {
+    border: 1px solid grey;
+}
+
+/* Заглавные римские числа */
+ol {
+    list-style-type: upper-roman;
+}
+
+/* Цвет текста */
+li span {
+    color: blue;
+}
+
+th {
+
+    background: #bcb4db;
+}
+
+.container1 {
+    text-align: center;
+}
+
+.text {
+    width: 270px;
+    height: 100px;
+=======
+table,
+td,
+th {
+    border: 1px solid grey;
+}
+
+/* Заглавные римские числа */
+ol {
+    list-style-type: upper-roman;
+}
+
+/* Цвет текста */
+li span {
+    color: blue;
+}
+
+th {
+
+    background: #bcb4db;
+}
+
+.container1 {
+    text-align: center;
+}
+
+.text {
+    width: 270px;
+    height: 100px;
+>>>>>>> 73a21dd8816037a33bec57b28f93e500e901441d
+}
