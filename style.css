@@ -1,5 +1,7 @@
 body{
-    background-color: black
+    background-image: url('https://img.fonwall.ru/o/ab/mortal-kombat-znak-drakon.jpg');
+    background-size: cover;
+    
 }
 .container{
     justify-content: left;
