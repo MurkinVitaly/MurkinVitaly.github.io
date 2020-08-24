@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 4</title>
+    <style>
+        table{
+            background-color: rgb(255, 255, 153);
+        }
+        td{
+            vertical-align: top;
+        }
+        .right{
+            text-align: right;
+        }
+        .center{
+            vertical-align: middle;
+        }
+        .yellow{
+            background-color: rgb(255, 204, 0);
+        }
+    </style>
+</head>
+
+<body>
+    <form action="app/check.php" method="POST">
+        <table>
+            <tr>
+                <th class="yelow" colspan="2">The World of Fruit</th>
+            </tr>
+            <tr>
+                <th colspan="2"><span> Fruit Survey</span></th>
+            </tr>
+            <tr>
+               <td class="right">Name</td>
+                <td>
+                    <input type="text" size="25">
+                </td>
+            </tr>
+            <tr>
+                <td class="right">Address</td>
+                <td>
+                    <input type="email" size="25">
+                </td>
+            </tr>
+            <tr>
+                <td class="right">Email</td>
+                <td>
+                    <input type="text" size="25">
+                </td>
+            </tr>
+            <tr>
+                <td class="right">
+                    <span> How many pieces of fruit </span><br>
+                    <span>do you eat per day</span>
+                </td>
+                <td>
+                    <input type="radio" name="NPieces" value="0"> 0 <br>
+                    <input type="radio" name="NPieces" value="1"> 1 <br>
+                    <input type="radio" name="NPieces" value="2"> 2 <br>
+                    <input type="radio" name="NPieces" value="More then 2"> More then 2 <br>
+                </td>
+            </tr>
+            <tr>
+                <td class="right">
+                    <span>My favorite fruit</span>
+                </td>
+                <td>
+                    <select name="select" size="4" multiple>
+                        <option selected value="Apple">Apple</option>
+                        <option selected value="Banana">Banana</option>
+                        <option selected value="Plum">Plum</option>
+                        <option selected value="Pomegranate">Pomegranate</option>
+                        <option selected value="Orange">Orange</option>
+                        <option selected value="Lime">Lime</option>
+                        <option selected value="Limon">Limon</option>
+                        <option selected value="Pomegranate">Pomegranate</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="right">
+                    <span>Would you like a </span><br>
+                    <span>brochure?</span>                    
+                </td>
+                <td class="centr"> 
+                    <input type="checkbox" name="Brochure" id="1">
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <button type="submit">Submit</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

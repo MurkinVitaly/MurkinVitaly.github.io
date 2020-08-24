@@ -1,0 +1,12 @@
+body{
+    background-color: black
+}
+.container{
+    justify-content: left;
+    text-align: left;
+    margin-left: 20px;
+    padding-bottom: 20px;
+    color: red;
+    font-family: 'Finger Paint', cursive;
+}
+
