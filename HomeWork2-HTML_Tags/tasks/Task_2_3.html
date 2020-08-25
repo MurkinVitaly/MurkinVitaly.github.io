@@ -17,7 +17,7 @@
         .center{
             vertical-align: middle;
         }
-        .yellow{
+        .color{
             background-color: rgb(255, 204, 0);
         }
     </style>
@@ -27,7 +27,7 @@
     <form action="app/check.php" method="POST">
         <table>
             <tr>
-                <th class="yelow" colspan="2">The World of Fruit</th>
+                <th class="color" colspan="2">The World of Fruit</th>
             </tr>
             <tr>
                 <th colspan="2"><span> Fruit Survey</span></th>
@@ -35,19 +35,19 @@
             <tr>
                <td class="right">Name</td>
                 <td>
-                    <input type="text" size="25">
+                    <input type="text" size="20">
                 </td>
             </tr>
             <tr>
                 <td class="right">Address</td>
                 <td>
-                    <input type="email" size="25">
+                    <input type="email" size="20" required>
                 </td>
             </tr>
             <tr>
                 <td class="right">Email</td>
                 <td>
-                    <input type="text" size="25">
+                    <input type="text" size="20">
                 </td>
             </tr>
             <tr>
@@ -56,10 +56,10 @@
                     <span>do you eat per day</span>
                 </td>
                 <td>
-                    <input type="radio" name="NPieces" value="0"> 0 <br>
-                    <input type="radio" name="NPieces" value="1"> 1 <br>
-                    <input type="radio" name="NPieces" value="2"> 2 <br>
-                    <input type="radio" name="NPieces" value="More then 2"> More then 2 <br>
+                    <input type="radio" name="Number" value="0"> 0 <br>
+                    <input type="radio" name="Number" value="1"> 1 <br>
+                    <input type="radio" name="Number" value="2"> 2 <br>
+                    <input type="radio" name="Number" value="More then 2"> More then 2 <br>
                 </td>
             </tr>
             <tr>
