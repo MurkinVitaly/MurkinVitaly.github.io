@@ -27,3 +27,6 @@ li:first-child{
     color:plum;
     font-weight: bold;
 }
+ul{
+    list-style-type:square;
+}
