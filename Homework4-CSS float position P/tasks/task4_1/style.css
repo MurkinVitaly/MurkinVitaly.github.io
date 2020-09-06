@@ -1,0 +1,29 @@
+p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    color:goldenrod;
+    text-transform: uppercase;
+}
+p::before, p::after{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5em;
+    color: black;
+}
+p::before{
+    content: '\201c';    
+}
+p::after{
+    content: '\201d';    
+}
+h2{
+    font-family: 'Roboto';
+    font-weight:bolder ;
+}
+li:last-child{
+    color:green;
+    font-style: italic;
+}
+li:first-child{
+    color:plum;
+    font-weight: bold;
+}

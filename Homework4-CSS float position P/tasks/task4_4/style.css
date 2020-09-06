@@ -1,0 +1,35 @@
+body {
+    background: #f1f1f1;
+}
+.content {
+    height: 200px;
+    width: 700px;
+    background-color: white;
+    border: red 4px solid;
+    border-radius: 10px;
+    padding: 25px;
+    position: absolute;
+    top: 32%;
+    margin-left: 28%;  
+
+}
+hr{
+    color: #cfcfcf;
+    background-color: #f5f5f5; 
+    size: 2px;
+}
+h1{
+    font-family:sans-serif;
+    margin: auto;
+    text-align: center;
+}
+.line{
+    width: 300px;
+    margin: auto;
+}
+p{
+    margin-top: 30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.5;
+    color: #635b5b;
+}

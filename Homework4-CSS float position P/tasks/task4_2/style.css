@@ -1,0 +1,15 @@
+ul{
+    width: 500px;
+}
+li{
+    font-size: 20px;
+    display: inline-block;
+    margin: 0 5px 5px 0;
+    width: 150px;
+    background-color: gainsboro;
+    text-align: center;
+    padding: 10px 0 10px 0;
+}
+li:nth-child(4n+3){
+    background-color: greenyellow;
+}
