@@ -6,7 +6,7 @@ body {
     width: 700px;
     background-color: white;
     border: red 4px solid;
-    border-radius: 10px;
+    border-radius: 15px;
     padding: 25px;
     position: absolute;
     top: 32%;
@@ -29,7 +29,7 @@ h1{
 }
 p{
     margin-top: 30px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     line-height: 1.5;
     color: #635b5b;
+    font-family: 'Work Sans', sans-serif;
 }
