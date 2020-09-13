@@ -1,0 +1,46 @@
+article{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    font-family: 'ABeeZee', sans-serif;
+    background: #ebebeb;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    height: 184px;
+    width: 660px;
+    margin: 32px 12px;
+    border-radius: 16px;
+
+}
+.dark{
+    background-color: #1e263d;
+    color: white;
+}
+.light{
+    background-color: white;
+    color: #b44225;
+}
+.description{
+    margin-left: 40px;
+    margin-top: 72px;
+    width: 400px;
+}
+
+.image{
+    width: 360px;
+}
+p{
+    font-size: 25px;
+    line-height: 40px;
+    margin: 0;
+}
+h2{
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 40px;
+    margin: 0;
+}
+
