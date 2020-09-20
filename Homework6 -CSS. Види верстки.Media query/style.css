@@ -1,24 +1,22 @@
-@media only screen and (max-width: 480px) {
-    .content, .heder{
-        width: 480px;
+@media screen and (min-width: 980px) /* Desktop */ {
+    body {
+      background: white;
+    }
+  }
+   
+  @media screen  and (max-width: 979px) /* Tablet */ {
+    body {
+      background: blue;
+    }
+  }
+   
+  @media screen and (max-width: 500px) /* Mobile */ {
+    body {
+      background: green;
     }
 }
-@media only screen and (max-width: 768px) and (min-width: 481px) {
-    .content, .heder{
-        width: 480px;
-    }
-}
-@media only screen and (max-width: 1279px) and (min-width: 769px) {
-    .content, .heder{
-        width: 769px;
-    }
-}
-@media only screen and (min-width: 1280px) {
-    .content, .heder{
-        width: 1110px;
-    }
-}
-.content{
+
+.container{
     background-color: white;
     margin: 140px auto ;
     height: 500px;
@@ -53,13 +51,23 @@ button{
     color: #FFFFFF;
     border: 0px;
 }
-.content h1{
+.container h1{
     color: #091133;
 }
 .footer h1{
     color: #37447E;
 }
-.heder p{
+
+.footer p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    color: #5D6970;
+}
+.header p{
     font-family: Roboto;
     font-style: normal;
     font-weight: 400;
@@ -74,13 +82,4 @@ button{
     width: 350px;
     float: left;
     margin: 8px 30px 0 0;
-}
-.footer p{
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    /* or 171% */
-    color: #5D6970;
 }
