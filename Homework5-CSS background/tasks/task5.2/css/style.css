@@ -1,0 +1,46 @@
+article{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    font-family: 'ABeeZee', sans-serif;
+    background: #F6F7FA;
+}
+section{
+    height: 184px;
+    width: 660px;
+    margin: 32px 12px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: row;
+}
+.dark__theme{
+    background: linear-gradient(90.02deg, #25335A 0.02%, #141824 113.01%);
+    color:#FFFFFF;
+}
+.light__theme{
+    background: #FFFFFF;
+    color: #AD4328;
+}
+.discrirtion{
+    margin-left: 40px;
+    margin-top: 72px;
+    width: 384px;
+}
+.img{
+    margin-top: 15px;
+}
+.image{
+    width: 330px;
+}
+p{
+    font-size: 24px;
+    line-height: 33px;
+    margin: 0;
+}
+h3{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    margin: 0;
+}

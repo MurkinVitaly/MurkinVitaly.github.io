@@ -12,18 +12,19 @@ article{
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
+    margin-bottom: 50px;
 }
 section{
     width: 280px;
 }
 h1{
-    width: 310px;
+    width: 200px;
     color: white;
     font-family: 'Roboto', sans-serif;
-    font-size: 48px;
+    font-size: 45px;
     font-weight: 700;
     line-height: 40px;
-    margin: 100px auto 0 auto ;
+    margin: 80px auto 0 auto ;
 }
 h2{
     height: 19px;
@@ -40,15 +41,11 @@ p{
     font-size: 18px;
     font-weight: 300;
     line-height: 30px;
-    margin: 38px auto;
+    margin: 40px auto;
     text-align: center;
-}
-header h1{
-    margin-left: 750px;
 }
 header p{
     max-width: 700px;
-    margin-left: 520px;
 }
 section p{
     width: 100%;
@@ -71,6 +68,6 @@ button{
 }
 footer{
     width: 205px;
-    height: 50px;
-    margin-left: 750px; 
+    height: 50px; 
+    margin: auto;
 }

@@ -1,0 +1,86 @@
+@media only screen and (max-width: 480px) {
+    .content, .heder{
+        width: 480px;
+    }
+}
+@media only screen and (max-width: 768px) and (min-width: 481px) {
+    .content, .heder{
+        width: 480px;
+    }
+}
+@media only screen and (max-width: 1279px) and (min-width: 769px) {
+    .content, .heder{
+        width: 769px;
+    }
+}
+@media only screen and (min-width: 1280px) {
+    .content, .heder{
+        width: 1110px;
+    }
+}
+.content{
+    background-color: white;
+    margin: 140px auto ;
+    height: 500px;
+
+}
+h1{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 48px;
+}
+h2{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 32px;
+    color: #091133;
+}
+button{
+    height: 26px;
+    width: 189px;
+    background: #111B47;
+    border-radius: 2px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    border: 0px;
+}
+.content h1{
+    color: #091133;
+}
+.footer h1{
+    color: #37447E;
+}
+.heder p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #6F7CB2;
+}
+.footer{
+    position: absolute;
+}
+.block{
+    width: 350px;
+    float: left;
+    margin: 8px 30px 0 0;
+}
+.footer p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    color: #5D6970;
+}
