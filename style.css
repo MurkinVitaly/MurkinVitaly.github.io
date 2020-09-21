@@ -1,13 +1,15 @@
 body{
-    background-image: url('https://img.fonwall.ru/o/ab/mortal-kombat-znak-drakon.jpg');
+    display: flex;
+    background-image: url('https://irecommend.ru/sites/default/files/product-images/1272268/ZVwKMmrMf0AIXTCQgtpEQ.jpg');
     background-size: cover;
+    width: 100%;
 }
 .container{
+    display: flex;
     justify-content: left;
-    text-align: left;
-    margin-left: 20px;
+
     padding-bottom: 20px;
-    color: red;
+    color: white;
     font-family: 'Finger Paint', cursive;
 }
 
