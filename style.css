@@ -1,16 +1,29 @@
 body{
-    display: flex;
     background-image: url('https://irecommend.ru/sites/default/files/product-images/1272268/ZVwKMmrMf0AIXTCQgtpEQ.jpg');
     background-size: cover;
     width: 100%;
 }
+header h1{
+    display: flex;
+    text-align: center;
+    color: red;
+    margin-left: 50px;
+    font-family: 'Finger Paint', cursive;
+}
+article{
+    display: flex;
+    text-align: center;
+    margin-bottom: 50px;
+}
 .container{
     display: flex;
-    justify-content: left;
-
-    padding-bottom: 20px;
-    color: white;
+    padding-bottom: 10px;
+    color: red;
     font-family: 'Finger Paint', cursive;
+    font-size: larger;
+    font-weight: 900;
+    
+
 }
 
 
