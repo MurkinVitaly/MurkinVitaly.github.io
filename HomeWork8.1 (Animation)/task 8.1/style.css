@@ -1,0 +1,26 @@
+.rectangle{
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    margin-right: -25%;
+    transform: translate(-25%, -25%);
+    height: 300px;
+    width: 600px;
+    height: 300px;
+    width: 600px;
+    box-shadow: 0 10px 10px 1px rgba(0, 0, 0, 0.3);
+    border: 3px solid #6979b8;
+    background-color: #ff0202;
+    background-image: linear-gradient(30.6deg, rgba(246, 240, 77, 0.88) 0%, rgba(21, 51, 228, 0.88) 100%);
+    transform-origin: top center ;
+    transform:rotate(-30.6deg);
+}
+.point{
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    top: -8px;
+    left: 50%;
+    background-color: red;
+    border-radius: 50%; 
+}

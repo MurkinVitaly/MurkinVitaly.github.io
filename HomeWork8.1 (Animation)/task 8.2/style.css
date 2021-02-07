@@ -1,0 +1,81 @@
+.rectangle{
+    position: relative;
+    margin: 25% auto;
+    padding: auto;
+    height: 300px;
+    width: 300px;
+    color: cyan;
+    background-color: #003366;
+    animation-name: test;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.rectangle2{
+    /* position: absolute;
+    left: 25%;
+    top: 25%; */
+    width: 150px;
+    height: 150px;
+    background-color: cyan;
+    opacity: 50%;
+    animation-name: test1, test2;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes test{
+   0%{
+        transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(90deg)
+    }
+    50%{
+        transform: rotate(180deg)
+    }
+    75%{
+        transform: rotate(270deg)
+    }
+    100%{
+        transform: rotate(360deg)
+    }
+}
+@keyframes test1{
+    0%{
+         transform: rotate(0deg);
+     }
+     25%{
+         transform: rotate(-90deg)
+     }
+     50%{
+         transform: rotate(-180deg)
+     }
+     75%{
+         transform: rotate(-270deg)
+     }
+     100%{
+         transform: rotate(-360deg)
+     }
+ }
+ @keyframes test2{
+    0%{
+       background-color: cyan;
+       height: 150px;
+       width: 150px;
+       border-radius: 0;
+     }
+     50%{
+        background-color: magenta;
+        height: 600px;
+        width: 600px;
+        border-radius: 100%;
+     }
+     100%{
+        background-color: cyan;
+        height: 150px;
+        width: 150px;
+        border-radius: 0;
+     }
+     
+ }
