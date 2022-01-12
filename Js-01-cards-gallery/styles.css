@@ -54,12 +54,9 @@ body {
 }
 .logo {
   color: grey;
-  margin-left: 10px;
-  margin-bottom: 50px;
+  margin-left: 25px;
 }
-  /* Цвет ссылок при наведении на них курсора мыши */
+/* Цвет ссылок при наведении на них курсора мыши */
 .logo:hover {
   color: rgb(185, 38, 185);
 }
-
-
