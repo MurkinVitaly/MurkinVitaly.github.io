@@ -15,6 +15,13 @@ body {
   align-items: center;
 }
 
+@media (max-device-width:480px){
+  body {  
+      width: 100%;
+      height: auto;
+}
+}
+
 .container {
   width: 100%;
   display: flex;
