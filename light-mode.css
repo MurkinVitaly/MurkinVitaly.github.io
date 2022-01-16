@@ -1,35 +1,38 @@
-body{
-    background-image: url(/background-img/spider-prodigy\ dark.jpg);
-    background-size: cover;
-    max-width: 200%;
-    transition: 2s;
+body {
+  background-image: url(/background-img/spider-prodigy\ dark.jpg);
+  background-size: cover;
+  max-width: 200%;
+  transition: 2s;
 }
-header h2{
-    display: flex;
-    text-align: center;
-    color: black;
-    margin-left: 50px;
-    font-family: 'Finger Paint', cursive;
-}
-article{
-    display: flex;
-    text-align: center;
-    margin-bottom: 50px;
-}
-.container{
-    display: flex;
-    padding-bottom: 10px;
-    color: black;
-    font-family: 'Finger Paint', cursive;
-    font-size: large;
-    font-weight: 500;
-}
-.button{
-    color:red;
-}
-li{
-    color:black;
+@media screen and (max-width: 480px) {
+  body {
+    width: 1200px;
+  }
 }
 
-
-
+header h2 {
+  display: flex;
+  text-align: center;
+  color: black;
+  margin-left: 50px;
+  font-family: "Finger Paint", cursive;
+}
+article {
+  display: flex;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.container {
+  display: flex;
+  padding-bottom: 10px;
+  color: black;
+  font-family: "Finger Paint", cursive;
+  font-size: large;
+  font-weight: 500;
+}
+.button {
+  color: red;
+}
+li {
+  color: black;
+}
