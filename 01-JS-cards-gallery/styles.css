@@ -17,7 +17,8 @@ body {
 
 @media screen and (max-width: 480px) {
   body {
-    width: 1200px;
+    float: none;
+    width: auto;
   }
 }
 
@@ -60,6 +61,7 @@ body {
 }
 .logo {
   color: grey;
+  margin-bottom: 50px;
   margin-left: 25px;
 }
 /* Цвет ссылок при наведении на них курсора мыши */
