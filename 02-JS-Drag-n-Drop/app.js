@@ -24,13 +24,14 @@ function dragend(event) {
 function dragover(event) {
     event.preventDefault()
 };
+
 function dragenter(event) {
     event.target.classList.add('hovered')
-    console.log('drag enter')
+
 };
 function dragleave(event) {
     event.target.classList.remove('hovered')
-    console.log('drag leave')
+
 };
 function dragdrop(event) {
     event.target.classList.remove('hovered')
