@@ -8,7 +8,7 @@ async function fetchHandler() {
         const data = await response.json();
         image.src = data.file;
     } catch (error) {
-        console.log(error)
+        alert(error)
     }
 }
 
