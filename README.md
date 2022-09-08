@@ -28,8 +28,11 @@ https://murkinvitaly.github.io/01-JS-cards-gallery/index.html
 
 https://murkinvitaly.github.io/02-JS-Drag-n-Drop/
 
+https://murkinvitaly.github.io/03-JS-RandomCat-API/index.html
+
 React
 
 https://murkinvitaly.github.io/ReactTimer/
 
+https://murkinvitaly.github.io/todo/
 
